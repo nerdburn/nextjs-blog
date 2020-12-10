@@ -1,0 +1,13 @@
+$size: 30px; 
+
+.avatar {
+	display: block;
+	width: $size;
+	height: $size;
+	border-radius: 100%;
+	img {
+		width: $size;
+		height: $size;
+		border-radius: 100%;
+	}
+}

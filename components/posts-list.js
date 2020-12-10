@@ -1,4 +1,4 @@
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.scss'
 import Link from 'next/link'
 import Date from './date'
 

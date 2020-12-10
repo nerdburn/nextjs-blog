@@ -1,7 +1,7 @@
 import useSWR from 'swr'
-import styles from './profile.module.css'
+import styles from './profile.module.scss'
 import Spinner from './spinner'
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.scss'
 
 const fetcher = (...args) => fetch(...args).then(res => res.json())
 

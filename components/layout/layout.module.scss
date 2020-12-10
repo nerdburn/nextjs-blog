@@ -1,0 +1,29 @@
+.container {
+	max-width: 36rem;
+	padding: 0 1rem;
+	margin: 3rem auto 6rem;
+}
+
+.header {
+	display: flex;
+}
+
+$size: 30px; 
+
+.headerProfile,
+.headerMenu {
+	flex: 50%;
+	ul {
+		list-style-type: none;
+		text-align: right;
+		li {
+			display: inline-block;
+			margin-left: 20px;
+			line-height: $size;
+		}
+	}
+}
+
+.backToHome {
+	margin: 3rem 0 0;
+}
